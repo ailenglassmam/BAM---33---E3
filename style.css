@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Poor+Story&family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+/*formato general de la pagina*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+/*configuraciones generales*/
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+li {
+    list-style-type: none;
+}
+
+body, html {
+    overflow-x: hidden;
+}
+
+section {
+    width: 80%;
+    margin: 80px auto;
+    /*background-color: aqua;*/
+}
+
+/*nav bar*/
+
+.nav-bar {
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    display: flex;
+    justify-content:space-between;
+    padding: 20px;
+    color:#262626;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links li{
+    margin: 0 30px;
+}
+
+.links-white {
+    color: #F2F2F2;
+}
+
+/*header*/
+
+header {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./img/img-ppal.jpg);
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-content {
+    margin-bottom:150px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.header-content h2 {
+    margin-bottom: 20px;
+    font-size: 4vmin;
+}
+
+.header-content h3 {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 7vmin;
+}
+
+/*section 1*/
+
+.line {
+    width: 150px;
+    height: 4px;
+    background-color: #A6A6A6;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+.ctn {
+    padding: 10px 20px;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    color: #262626;
+    text-decoration: none;
+    margin-top: 20px;    
+}
+
+.title {
+    text-align: center;
+    font-size: 4vmin;
+    color: #262626;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.row .col {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.events .img {
+    width: 100%;
+    overflow: hidden;
+    object-fit: contain;
+}
+
+.events .row {
+    margin-top: 50px;
+}
+
+h4 {
+    font-size: 4vmin;
+    color: #262626;
+    margin-top: 1rem;
+    margin: 20px auto;
+}
+
+.events p {
+    color: #A6A6A6;
+    padding: 0 20px;
+    margin: 1rem;
+    border-left: #262626 solid 3px;
+}
+
+.events .ctn-2 {
+    padding: 10px 15px;
+    margin: 20px auto;
+    background-color: #262626;
+    border-radius: 30px;
+    color: white;
+}
+
+.events .ctn-2 {
+    margin-top: 0px;
+}
+
+/*section 2*/
+
+.explore{
+    width: 100%;
+    height: 100vh;
+    background-image: url("./img/img-grande1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+.explore-content{
+    width: 60px;
+    padding: 50px;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.explore-content h2{
+    font-size: 7vmin;
+    padding-left: 500px;
+}
+
+.explore-content .line{
+    margin-bottom: 50px;
+    margin-left: 170px;
+}
+
+.explore-content p{
+    color: rgb(221, 221, 221);
+    padding-left: 400px;
+}
+
+.explore-content .ctn{
+    margin-top: 40px;
+    margin-left: 425px;
+}
+
+.ctn-3{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 30px;
+    margin-left: 450px;
+    background:#A6A6A6;
+    border-radius: 30px;
+    color: whitesmoke;
+}
+
+/*section 3*/
+
+.content-col{
+    width: 50%;
+}
+
+.tours .image-galery{
+    width: 50%;
+
+}
+
+.tours .row .col{
+    width: 50%;
+}
+
+div > div > img{
+    width: 250px;
+    padding: 10px;
+}
+
+.content-col h2{
+    font-size: 7vmin;
+    color:#262626;
+}
+
+.content-col .line{
+    border-left: 50px;
+}
+
+.content-col p{
+    padding: 0;
+    margin: 30px auto;
+    margin-right: 20px;
+}
+
+.ctn-4{
+    padding: 15px 25px;
+    margin: 20px auto;
+    background:#262626;
+    border-radius: 30px;
+    color:#F2F2F2;
+}
+
+/*footer*/
+
+.footer {
+    width: 100%;
+    height: 200px;
+    padding: 20px 80px;
+    margin: 0;
+    background: black;
+    text-align: center;
+    color: #A6A6A6;
+}
